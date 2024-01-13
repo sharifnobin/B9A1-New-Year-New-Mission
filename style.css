@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Merriweather',serif; */
+.except_footer{
+    margin-top: 50px;
+    width: 1600px;
+   margin: 0 140px; 
+}
+header{
+        width: 1320px;
+        height: 600px;
+        margin-top: 50px;
+        text-align: center;
+        padding-top: 100px;
+        background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/Banner\ Image.png');
+        font-family: 'Merriweather', serif;
+        flex-shrink: 0;
+        border-radius: 16px;
+}
+
+header > p{
+    color: #FFF;
+        text-align: center;
+        font-family: Merriweather;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+header > h2 {
+    color: #FFF;
+        text-align: center;
+        font-family: Merriweather;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 95px;
+        /* 131.944% */
+}
+
+.holiday_deals{
+   margin-top: 100px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.off{
+    color: #F00;
+        text-align: center;
+        font-family: Inter;
+        font-size: 88px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.deals{
+    color: #F00;
+        text-align: center;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+}
+.catagories{
+    color: #070211;
+        text-align: center;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+
+.new_year{
+    width: 803px;
+        height: 500px;
+        flex-shrink: 0;
+        background-image: url('./images/New_Year_Photo.png'), lightgray 50% / cover no-repeat;
+}
+
+.midnight_party{
+    width: 1320px;
+        height: 600px;
+        flex-shrink: 0;
+        background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('./images/Vectorrr.png');
+        border-radius: 3px;
+}
+
+.midnight_party > h1{
+    color: #FFF;
+        font-family: Merriweather;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 88px;
+        /* 137.5% */
+        letter-spacing: 7.04px;
+        padding-top: 126px;
+        padding-left: 126px;
+}
+
+.midnight_party >p {
+color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 126px;
+    padding-top: 10px;
+    /* 166.667% */
+}
+
+.midnight_party > h5{
+    color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        padding-left: 158px;
+        padding-top: 48px;
+}
+
+.booking{
+    width: 1320px;
+        height: 482px;
+        flex-shrink: 0;
+        margin-top: 50px;
+        background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.booking>p{
+    color: #070211;
+        font-family: Inter;
+        font-size: 32px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px;
+        text-transform: capitalize;
+        padding-top: 100px;
+}
+
+.booking>p>span{
+   color: #F00;
+}
+
+.booking>.button{
+border-radius: 8px;
+    background: #F00;
+    
+        padding: 16px 32px;
+        margin-top: 30px;
+        
+        gap: 10px;
+        color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+}
+
+.coming_soon{
+    display: flex;
+}
+
+.coming_soon>.left>p{
+color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.coming_soon>.left>h1{
+    color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+}
+
+.coming_soon>.left>h2{
+    color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        /* 160% */
+}
+
+.coming_soon>.middle{
+    width: 364.844px;
+        height: 364.844px;
+        flex-shrink: 0;
+        border-radius: 364.844px;
+            background: url('./images/Ellipse\ 1.png'), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+}
+
+
+.portfolio>.texts>p{
+color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.portfolio>.texts>h1{
+color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.portfolio>.texts>h2{
+    color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        /* 160% */
+}
+
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photos>img{
+    width: 424px;
+        height: 450px;
+        flex-shrink: 0;
+        border-radius: 16px;
+}
+
+footer{
+    width: 1600px;
+        height: 609px;
+        flex-shrink: 0;
+        background: #070211;
+}
+
+footer>.addresses{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer>.addresses>.address{
+    color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+        padding-left: 140px;
+        padding-top:120px;
+        /* 166.667% */
+}
+
+footer>.addresses>.contact{
+    color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+        padding-right: 291px;
+        padding-top: 120px;
+        /* 166.667% */
+}
+
+footer>.photosss{
+    display: flex;
+    justify-content:center;
+    padding-top: 130px;
+}
+
+.photosss>img{
+    width: 64px;
+        height: 64px;
+        flex-shrink: 0;
+}
+
+footer>textsss{
+    display: flex;
+    justify-content: space-between;
+}
